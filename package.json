@@ -52,5 +52,8 @@
     "spinnies": "0.5.1",
     "syntax-error": "~1.4.0",
     "telegraf": "^4.16.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
