@@ -1,0 +1,56 @@
+{
+  "name": "@neoxr/telegram",
+  "version": "0.0.1",
+  "description": "A lightweight and pluggable Telegram Bot API library for sending messages, managing chats, users, media, and bot interactions",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neoxr/telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "telegram-bot-api",
+    "bot",
+    "telegraf",
+    "telegram-api",
+    "messaging"
+  ],
+  "author": "Wildan Izzudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neoxr/telegram/issues"
+  },
+  "homepage": "https://github.com/neoxr/telegram#readme",
+  "peerDependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "peerDependenciesMeta": {
+    "telegraf": {
+      "optional": false
+    }
+  },
+  "dependencies": {
+    "@cacheable/node-cache": "~1.4.0",
+    "@neoxr/api": "^1.5.3",
+    "@neoxr/helper": "latest",
+    "bytes": "^3.1.2",
+    "chalk": "4.1.0",
+    "chokidar": "~4.0.3",
+    "colors": "~1.4.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.0.1",
+    "flatted": "^3.3.3",
+    "lodash": "^4.17.21",
+    "mime-types": "~2.1.32",
+    "node-cron": "~3.0.0",
+    "path": "~0.12.7",
+    "spinnies": "0.5.1",
+    "syntax-error": "~1.4.0",
+    "telegraf": "^4.16.3"
+  }
+}
